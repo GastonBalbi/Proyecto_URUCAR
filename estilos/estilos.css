@@ -1,0 +1,498 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.color_letra_nav_bar{
+    color: #7CBD2A;
+}
+
+.color_letra_footer{
+    color: white;
+}
+
+/*---------------------------------------- Mobile (Min-Height S-320px) (Max-Height L-425px) ----------------------------------------*/
+
+/*-------------------------------- Main (Inicio) --------------------------------*/
+
+
+
+/*-------------------------------- Tarjeta de presentacion --------------------------------*/
+
+
+
+.nosotros{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #7CBD2A;
+    gap: 1rem;
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    color: white;
+}
+
+h2{
+    background-color: #7CBD2A;
+    cursor: default;
+    color: white;
+}
+
+.nosotros img{
+    width: 100%;
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+
+
+/*-------------------------------- Cards -------------------------------- */
+
+.cantenedor_card{
+    margin: 2rem 0rem;
+}
+
+.titulo_card{
+    text-align: center;
+}
+
+h3{
+    font-size: 1.6rem;
+    margin: 1rem 0rem;
+    background-color: #7CBD2A;
+    padding: 1.5rem;
+    cursor: default;
+    color: white;
+}
+
+.contenedor_contenedor_card{
+    display: flex;
+    justify-content: center;
+}
+
+.card-body{
+    text-align: center;
+    padding: 1rem 0rem;
+}
+
+.card-body a{
+    background-color: #7CBD2A;
+    border-color: #7CBD2A;
+}
+
+.card-body a:hover{
+    background-color: white;
+    color: black;
+    border-color: #7CBD2A;
+}
+
+.card-title{
+    color: white;
+    margin-bottom: 1rem;
+    padding: .5rem;
+    background-color: #7CBD2A;
+}
+
+.contenedor_contenedor_card ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor_contenedor_card ul li{
+    margin: .7rem 0rem;
+    display: flex;
+    margin-left: 5.5rem;
+}
+
+.contenedor_contenedor_card ul li img{
+    width: 1.8rem;
+    margin-right: 1rem;
+}
+
+.card{
+    overflow: hidden;
+    cursor: default;
+    transition: all 400ms ease;
+    margin: 1.5rem 0rem;
+    border-color: #7CBD2A;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+
+.autos{
+    height: 230px;
+}
+
+.img_descripcion_coches{
+    height: 30px;
+}
+
+.imagen_presentacion{
+    height: 250px;
+    object-fit: cover;
+}
+
+/*-------------------------------- Main (Galeria) --------------------------------*/
+
+.parrafo_galeria{
+    background-color: #7CBD2A;
+    width: 65%;
+    text-align: center;
+    margin: auto;
+    padding: 1.5rem;
+    border-radius: 25px;
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 1.3rem;
+}
+
+/*-------------------------------- Main (Contacto) --------------------------------*/
+/*-------------------------------- FORMULARIO --------------------------------*/
+
+.contenedor_contactos{
+    background-color: #7CBD2A;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 2rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.formulario{
+    background-color: #7CBD2A;
+    width: 90%;
+    margin: auto;
+    border-radius: 2rem;
+    padding: 1rem;
+    color: white;
+}
+
+.contenedor_datos legend{
+    margin-bottom: 1.5rem;
+}
+
+.contenedor_datos div{
+    display: flex;
+    flex-direction: column;
+}
+
+.condiciones{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botones_formulario{
+    margin: 1rem;
+}
+
+.botones_formulario button{
+    padding: .5rem;
+    width: 4rem;
+    margin: .5rem 1rem;
+    border-radius: .3rem;
+}
+
+.campo_obligatorio{
+    font-size: .8rem;
+}
+
+
+
+/*-------------------------   Mensaje que muestra error en ----------------------------
+--------------------------- imput obligatorios del formulario  -------------------------*/
+
+small{
+    visibility: hidden;
+    color: black;
+    background-color: #7CBD2A;
+    font-size: .6rem;
+    margin-top: .5rem;
+}
+
+.form-control.error{
+    background-color: #7CBD2A;
+    border: none;
+    padding: 0;
+    margin-bottom: .5rem;
+}
+
+.form-control.error small{
+    visibility: visible;
+    background-color: #7CBD2A;
+}
+
+.form-control.success{
+    background-color: #7CBD2A;
+    border: none;
+}
+
+/*-------------------------------- MAPA --------------------------------*/
+
+#map{
+    height: 300px;
+    width: 86%;
+    margin: auto;
+    border-radius: 1rem;
+}
+
+/*-------------------------------- Footer --------------------------------*/
+
+
+.contenedor_footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #7CBD2A;
+    padding: 1rem;
+    gap: 1.5rem;
+}
+
+.contenedor_footer ul{
+    display: flex;
+    margin: 0rem 0rem;
+    padding: 0rem 0rem;
+}
+
+.contenedor_footer ul li{
+    margin: 0rem .5rem;
+    list-style: none;
+}
+
+.contenedor_footer ul li a img{
+    width: 1.8rem;
+}
+
+.menu_footer li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/*---------------------------------------- Tablet (Min-Height 426px) (Max-Height 768px) ----------------------------------------*/
+
+@media all and (min-width: 426px) and (max-width: 768px) { 
+
+/*------------------------- Main (Inicio) -------------------------*/    
+
+/*------------------------- Carusel -------------------------*/
+
+.carousel-item{
+    height: 400px;
+}
+
+.carousel-item img{
+    height: 100%;
+    object-fit: cover;
+}
+
+/*------------------ Tarjeta de presentacion ------------------*/
+
+
+    .nosotros{
+        display: flex;
+        flex-direction: row;
+        background-color: #7CBD2A;
+        gap: 1rem;
+        width: 90%;
+        color: white;
+    }
+
+    .nosotros img{
+        height: 100%;
+        border-radius: 1rem 1rem 1rem 1rem;
+        object-fit: cover;
+    }
+
+    h2{
+        background-color: #7CBD2A;
+        cursor: default;
+        color: white;
+    }
+    
+    /*----------------------- Cards -----------------------*/
+
+    .card_totales{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem 3rem;
+    }
+
+    .card-body a{
+        background-color: #7CBD2A;
+        border-color: #7CBD2A;
+    }
+
+    .card-body a:hover{
+        background-color: white;
+        color: black;
+        border-color: #7CBD2A;
+    }
+
+    /*---------------------- Footer ----------------------*/
+
+    .contenedor_footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background-color: #7CBD2A;
+        padding: 1.5rem;
+        gap: 1.5rem;
+    }
+
+    /*------------------------- Main (Galeria) -------------------------*/
+
+    .contenedor-cards_galeria{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+}
+
+/*---------------------------------------- Laptop (Min-Height 769px) ----------------------------------------*/
+
+@media all and (min-width: 769px) {
+
+
+  /*------------------------- Main (Inicio) -------------------------*/
+
+  /*------------------------- Carusel -------------------------*/
+
+.carousel-item{
+    height: 500px;
+   
+}
+
+.carousel-item img{
+    height: 100%;
+     object-fit: cover;
+}
+
+/*------------------ Tarjeta de presentacion ------------------*/
+
+
+    .nosotros{
+        display: flex;
+        flex-direction: row;
+        background-color: #7CBD2A;
+        gap: 1rem;
+        width: 90%;
+        color: white;
+        margin-bottom: 2rem;
+    }
+
+    .nosotros img{
+        height: 100%;
+        border-radius: 1rem 1rem 1rem 1rem;
+        object-fit: cover;
+    }
+
+    .nosotros div p{
+        font-size: 1.4rem;
+    }
+
+    h2{
+        background-color: #7CBD2A;
+        cursor: default;
+        color: white;
+        margin: 4rem 1rem;
+        margin-top: 2rem;
+    }
+    
+    /*----------------------- Cards -----------------------*/
+
+    .card_totales{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        gap: 1rem 5rem;
+    }
+
+    .card-body a{
+        background-color: #7CBD2A;
+        border-color: #7CBD2A;
+    }
+
+    .card-body a:hover{
+        background-color: white;
+        color: black;
+        border-color: #7CBD2A;
+    }
+
+    /*---------------------- Footer ----------------------*/
+
+    .contenedor_footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background-color: #7CBD2A;
+        padding: 1.5rem;
+        gap: 1.5rem;
+    }
+    
+    
+    /*------------------------- Main (Galeria) -------------------------*/
+
+    .contenedor-cards_galeria{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .btn{
+        margin-top: 1rem;
+    }
+
+    /*------------------------- Main (Contacto) -------------------------*/
+
+    .contenedor_contactos{
+        display: flex;
+        background-color: #7CBD2A;
+        width: 90%;
+        margin: auto;
+        border-radius: 1rem;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+        padding-bottom: 0rem;
+    }
+
+    .formulario{
+        background-color: #7CBD2A;
+        width: 90%;
+        margin: auto;
+        border-radius: 2rem;
+        padding: 1rem;
+        color: white;
+        margin-bottom: 0rem;
+    }
+
+    .campo_obligatorio{
+        font-size: .8rem;
+        margin-bottom: 0rem;
+    }
+
+    #map{
+        height: 810px;
+        width: 90%;
+        border-radius: 1rem;
+        margin: 1rem;
+    }
+
+}
+
+
+
+
+
+
+
